@@ -1,0 +1,13 @@
+# apply-spec.yaml
+
+applySpecVersion: 1
+spec:
+  configSync:
+    # Set to true to install and enable Config Sync
+    enabled: true
+    sourceFormat: unstructured
+    syncRepo: https://github.com/aroradheeraj/mck8-acm-demo
+    syncBranch: main
+    secretType: none
+    gcpServiceAccountEmail: dheeraj.kumar5@concentrix.com
+    policyDir: all-cluster-config
