@@ -13,4 +13,5 @@ spec:
     policyDir: all-cluster-config/
     syncBranch: main
   sourceFormat: unstructured
+  enableLegacyFields: true
 # [END anthos_config_management]
