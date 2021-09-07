@@ -1,0 +1,9 @@
+Name           Status  Last_Synced_Token  Sync_Branch  Last_Synced_Time  Policy_Controller  Hierarchy_Controller
+azure-cluster  ERROR   NA                 main                           PENDING            PENDING
+cloud-cluster  ERROR   NA                 main                           INSTALLED          PENDING
+ - cluster: azure-cluster
+   error: KNV2001: evaluating symbolic link to policy dir: lstat /repo/root/5ca51e2c89a3e4044aa4afafbec3567039a8da53/all-cluster-config: no such file or directory
+
+path: /repo/root/5ca51e2c89a3e4044aa4afafbec3567039a8da53/all-cluster-config/
+
+For more information, see https://g.co/cloud/acm-errors#knv2001
