@@ -6,11 +6,7 @@ spec:
   selector:
     matchLabels:
       app: nginx
-<<<<<<< HEAD
-  replicas: 2 # tells deployment to run 2 pods matching the template
-=======
   replicas: 0 # tells deployment to run 2 pods matching the template
->>>>>>> ddb5edc087c8b8b9699e26224957c575b9e6eb5d
   template:
     metadata:
       labels:
